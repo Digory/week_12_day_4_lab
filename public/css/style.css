@@ -1,0 +1,30 @@
+
+@keyframes h3text {
+    0% {
+        font-size: normal;
+    }
+
+    50% {
+        font-size: 100px;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        font-size: normal;
+        transform: rotate(0deg);
+    }
+}
+
+.crazy-h3{
+    animation-duration: 3s;
+    animation-name: h3text;
+    animation-iteration-count: infinite;
+    anima
+    /* transition: transform 1s;
+    /* -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg); */
+    /* transform: rotate(360deg);
+    font-size: 10rem; */
+}
